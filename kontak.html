@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontak - KOPIKA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div class="wrap nav"><a class="logo" href="index.html"><i></i>KOPIKA</a>
+            <ul>
+                <li><a href="index.html" class="">Beranda</a></li>
+                <li><a href="produk.html" class="">Produk</a></li>
+                <li><a href="portofolio.html" class="">Portofolio</a></li>
+                <li><a href="tentang.html" class="">Tentang</a></li>
+                <li><a href="kontak.html" class="on">Kontak</a></li>
+                <li><a class="btn" href="produk.html#paket">Langganan</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="pagehero">
+            <div class="wrap"><span class="tag">Kontak</span>
+                <h1>Ada pertanyaan?</h1>
+                <p class="lead" style="margin-top:18px">Tulis pesanmu, kami balas dalam satu hari kerja.</p>
+            </div>
+        </section>
+        <section style="padding-top:40px">
+            <div class="wrap">
+                <div class="split">
+                    <form class="card" onsubmit="return false">
+                        <h3>Kirim pesan</h3>
+                        <label for="n">nama</label><input id="n" type="text" placeholder="Nama kamu">
+                        <label for="e">email</label><input id="e" type="email" placeholder="kamu@email.com">
+                        <label for="p">paket</label><select id="p" data-render="paket-opsi"></select>
+                        <label for="m">pesan</label><textarea id="m" placeholder="Tulis pesanmu di sini"></textarea>
+                        <button class="btn" style="margin-top:20px;cursor:pointer;font-family:inherit">Kirim
+                            pesan</button>
+                    </form>
+                    <div>
+                        <div class="card" style="margin-bottom:16px">
+                            <h3>Hubungi langsung</h3>
+                            <ul class="spec">
+                                <li>email<b>dhimasputrawan@gmail.com</b></li>
+                                <li>whatsapp<b>+62 800-0000-0000</b></li>
+                                <li>jam<b>Sen-Sab, 08.00-17.00</b></li>
+                            </ul>
+                        </div>
+                        <div class="term">
+                            <div class="bar"><i></i><i></i><i></i><span>status</span></div>
+                            <pre><span class="g">●</span> pesanan hari ini ....... sedang disangrai
+<span class="g">●</span> pengiriman ............. berjalan normal</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="wrap">
+                <div class="head"><span class="tag">FAQ</span>
+                    <h2>Pertanyaan yang sering muncul.</h2>
+                </div>
+                <div data-render="faq"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="fg">
+                <div><a class="logo" href="index.html"><i></i>KOPIKA</a>
+                    <p>Kopi nusantara disangrai sesuai pesanan, dikirim langsung dari petani.</p>
+                </div>
+                <div>
+                    <h4>halaman</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="produk.html">Produk</a></li>
+                        <li><a href="portofolio.html">Portofolio</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>kopi</h4>
+                    <ul>
+                        <li><a href="produk.html">Gayo</a></li>
+                        <li><a href="produk.html">Toraja</a></li>
+                        <li><a href="produk.html">Kintamani</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>bantuan</h4>
+                    <ul>
+                        <li><a href="kontak.html#faq">FAQ</a></li>
+                        <li><a href="kontak.html">Hubungi kami</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy"><span>© 2026 KOPIKA</span><span></span></div>
+        </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script src="animasi.js"></script>
+</body>
+
+</html>
